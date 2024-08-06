@@ -130,7 +130,7 @@ body {
 #scheme2 {
   background-color: white;
   height: 220px;
-  width: 750px;
+  width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -144,7 +144,7 @@ body {
 #scheme3 {
   background-color: rgba(201, 207, 80, 0.737);
   height: 220px;
-  width: 750px;
+  width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
