@@ -97,7 +97,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 100px;
+  padding-left: 200px;
 }
 
 #scheme1 {
@@ -158,6 +159,46 @@ body {
 .text {
   font-size: 22px;
   line-height: 35px;
+}
+
+#section4 {
+  height: 100vh;
+  max-width: 1600px;
+  background-color: #7aff97;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+#section4-head {
+  max-width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  overflow-x: scroll;
+}
+.section4-first {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+.section4-first img {
+  width: 250px;
+  height: 180px;
+}
+.section4-first p {
+  font-size: 16px;
+  color: #2f2e31;
+}
+#section4-first button {
+  display: flex;
+  justify-content: flex-start;
+}
+#color-purple {
+  background-color: #6343c7;
 }
 
 @media (max-width: 620px) {
